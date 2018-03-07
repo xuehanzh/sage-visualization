@@ -1,0 +1,105 @@
+#zooms{
+  vertical-align: top
+}
+#app{
+  vertical-align: top
+}
+.main{
+  position: absolute
+}
+html, body {
+  height: 100%;
+}
+* {
+  margin: 0px;
+}
+.bg-rect {
+  fill: #F7F5F9;
+}
+.x-axis .tick text{
+}
+.x-axis path {
+  stroke: none;
+}
+.grid-line {
+  stroke: white;
+  stroke-width: 2;
+}
+.line-path {
+  fill: none;
+  stroke: rgb(101,27,175);
+  stroke-width: 2;
+}
+.pre-line {
+  fill: none;
+  stroke: rgb(56,178,144);
+  stroke-width: 2;
+}
+
+.present-line {
+  stroke-width: 2;
+  stroke: #777;
+}
+.present-text {
+  text-anchor:middle;
+  fill: #111;
+  font-size: 13px;
+  font-family: sans-serif;
+}
+.resolution-line {
+  stroke-width: 2;
+  stroke: #c44;
+}
+.resolution-text {
+  text-anchor:middle;
+  fill: #c44;
+  font-size: 13px;
+  font-family: sans-serif;
+}
+.pre-area {
+  fill: rgb(32, 177, 208);
+  opacity: 0.5;
+}
+.bins {
+  fill: rgb(71, 131,194);
+}
+.bins-text {
+  text-anchor: middle;
+  font-family: sans-serif;
+}
+.bins-title {
+  font-size: 11px;
+  text-anchor: middle;
+  font-family: sans-serif;
+}
+.tip-line {
+  stroke: #0073FF;;
+  stroke-width: 1;
+}
+.tip-text {
+  font-size: 12px;
+  text-anchor: start;
+  dy: .7em;
+  font-family: sans-serif;
+  opacity: 0.5
+}
+.tip-bg {
+  fill: #4934DD;
+  opacity: 0.2;
+  stroke: steelblue;
+  stroke-width: 2px;
+}
+
+div.tooltip {				
+  position: absolute;
+  text-align: center;
+  line-height: 47px;		
+  width: 180px;					
+  height: 70px;						
+  font: 12px sans-serif;
+  line-height:200%;		
+  background:white;
+  border: 0px;		
+  border-radius: 8px;			
+  pointer-events: none;			
+}
